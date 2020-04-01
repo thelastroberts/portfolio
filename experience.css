@@ -1,0 +1,102 @@
+
+* { 
+  box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 50px;
+  }
+
+  header {
+    line-height: 1.5;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+  }
+  /* Main Navigation */
+  a {
+    text-decoration: none;
+    color:#87CEEB;
+  }
+  a:hover {
+    color: #6633ff;
+  }
+
+  .main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: #87CEEB;
+}
+
+.nav li {
+    padding: 5px 90px 10px 70px;
+  }
+
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: white
+  }
+
+
+  .card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: center;
+    background: #87CEEB;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+
+  .card:hover {
+    border-color: rgb(0, 0, 0);
+  }
+
+  .flex {
+    display: -ms-flexbox;      
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.top{
+color: rgb(192, 31, 31);
+}
+
+.profileName{
+  color: #87CEEB;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
